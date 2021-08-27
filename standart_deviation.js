@@ -1,1 +1,0 @@
-const standartDeviation = variance => Math.sqrt(variance)
