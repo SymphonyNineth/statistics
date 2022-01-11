@@ -1,6 +1,4 @@
 import calculateMean from "./calculateMean.js";
-import data from "./mockData.js";
-
 function calculateVariance(data, isSample = true) {
     const mean = calculateMean(data);
 
@@ -20,4 +18,5 @@ function calculateVariance(data, isSample = true) {
     return variance;
 }
 
-console.log(calculateVariance(data));
+
+export default calculateVariance;
